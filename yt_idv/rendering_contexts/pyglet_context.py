@@ -45,7 +45,6 @@ class PygletRenderingContext(pyglet.window.Window, BaseContext):
             minor_version=3,
             forward_compat=True,
             double_buffer=True,
-            depth_size=24,
         )
         super(PygletRenderingContext, self).__init__(
             width, height, config=config, visible=visible, caption=title
